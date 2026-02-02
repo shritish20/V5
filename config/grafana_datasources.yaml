@@ -1,0 +1,5 @@
+apiVersion: 1
+datasources:
+  - name: SQLite
+    type: frser-sqlite-datasource
+    url: /var/lib/grafana/data/volguard_mount/volguard.db
